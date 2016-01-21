@@ -22,7 +22,7 @@ s = '0'
 
 tag = 1
 while bool(tag):
-    linePattern1 = re.compile(r'(%s)\s.*\s([0-9]+)'% s)
+    linePattern1 = re.compile(r'(%s)\s.*\s([0-9]+)'% s)#把变量s作为匹配pattern
     tag = 0
     i = 0
     fpRead.seek(0)
